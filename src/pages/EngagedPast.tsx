@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const EngagedPast: React.FC = () => {
   return (
@@ -18,6 +19,14 @@ const EngagedPast: React.FC = () => {
           Student Wellness Resource Compilation
         </a>
       </button>
+      <h2> 
+        Want to take the first step to your new right resource? 
+      </h2>
+      <Link to="/Question3">
+        <button style={{ backgroundColor: '#528aae', marginTop: '20px' }}>
+          Explore More!
+        </button>
+      </Link>
     </div>
   );
 };

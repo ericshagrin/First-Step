@@ -1,7 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
 import HomePage from './pages/HomePage';
 import Question1 from './pages/Question1';
 import Question2 from './pages/Question2';
