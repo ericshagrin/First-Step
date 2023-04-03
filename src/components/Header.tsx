@@ -26,7 +26,7 @@ const Header = () => {
             Home
           </Nav.Link>
           <Nav.Link href="/question1" className="Nav-link">
-            {isHome ? 'Find Your Resource' : 'Restart The Process'}
+            Go to question!
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
@@ -35,3 +35,5 @@ const Header = () => {
 };
 
 export default Header;
+
+// {isHome ? 'Find Your Resource' : 'Restart The Process'}
