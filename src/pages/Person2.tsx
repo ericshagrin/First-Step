@@ -29,7 +29,7 @@ const Person2: React.FC = () => {
                     </>
                 ) : (
                     <>
-                        <h3>Student Wellness is closed right now. Please call during operating hours.</h3>
+                        <h3>Student Wellness is closed right now. Please call (773-702-3625) during operating hours.</h3>
                     </>
                 )}
             </div>
