@@ -14,7 +14,7 @@ const Question3 = () => {
   };
 
   return (
-    <div className="container-resources">
+    <div className="container-resources" >
       <h1>Would you like to explore in-person or virtual resources? </h1>
       <div>
         <Button variant="primary" onClick={handleYesClick} className="btn-primary-custom">

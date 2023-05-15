@@ -17,7 +17,9 @@ import Virtual from './pages/Virtual';
 import InPerson from './pages/InPerson';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import './index.css';
+import './browser.css';
+import './mobile.css'
+
 
 function App() {
   return (

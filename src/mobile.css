@@ -1,0 +1,124 @@
+@media (max-width: 767px) {
+    .card {
+      padding: 1.5em;
+    }
+    
+    /* Update the right section background color */
+    .right-section {
+      width: 100%;
+      padding: 2rem;
+    }
+    
+    h1 {
+      font-size: 2.8em;
+      line-height: 1.1;
+    }
+    
+    button {
+        margin-right: 1rem; /* Add margin between buttons */
+        border-radius: 8px;
+        border: 1px solid transparent;
+        padding: .8em 1.2em; /* updated padding to increase button size */
+        font-size: 1.2em; /* updated font size to make text bigger */
+        font-weight: 500;
+        font-family: inherit;
+        background-color: #800000;
+        cursor: pointer;
+        transition: border-color 0.25s;
+      }
+      
+      @media (prefers-color-scheme: light) {
+        button {
+          background-color: #800000;
+          padding: 0.9em 1.8em; /* updated padding to increase button size */
+          font-size: 1.2em; /* updated font size to make text bigger */
+          margin-right: 1rem; /* Add margin between buttons */
+        }
+      }
+    
+    /* Style for Navbar */
+    .Navbar {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    
+    .Navbar-brand {
+      font-size: 1.3rem;
+    }
+    
+    .Nav-link {
+      font-size: 1rem;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+    
+    .Nav-item h4 {
+      margin-top: 0.1rem;
+      margin-bottom: 0.3rem;
+    }
+    
+    .with-bg .navbar-toggler-icon {
+      background-color: cream;
+    }
+    
+    /* Style for your home page */
+    .container-home {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      padding: 0 2%;
+    }
+    
+    .left-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+    
+    .right-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 2rem;
+      background-color: #800000;
+      border-radius: 15px;
+    }
+    
+    #root {
+      max-width: 100%;
+      margin: 0;
+      padding: 1rem;
+      text-align: center;
+    }
+    
+    /* Style for your resources */
+    .container-resources {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      padding: 0 2%;
+    }
+    
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 1.5rem;
+    }
+    
+    .logo {
+      max-width: 150px;
+    }
+    
+    .main-header {
+      margin-bottom: 0;
+    }
+  }

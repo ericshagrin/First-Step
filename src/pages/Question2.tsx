@@ -14,7 +14,7 @@ const Question2 = () => {
   };
 
   return (
-    <div className="container-resources">
+    <div className="container-resources" >
       <h1>Do you want to learn more about the resources available?</h1>
       <div>
       <Button variant="primary" onClick={handleYesClick} className="btn-primary-custom">

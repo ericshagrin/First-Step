@@ -1,0 +1,219 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #7b3d3d; /* Muted maroon text color */
+  background-color: #fff6e8; /* Cream background color */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Update the button background color */
+button {
+  background-color: #7b3d3d;
+  color: #fff6e8;
+}
+
+/* Update the button hover color */
+button:hover {
+  border-color: #7b3d3d;
+  background-color: #5f2d2d; /* Darker shade of maroon */
+}
+
+/* Update the link color */
+a {
+  color: #5f2d2d;
+}
+
+/* Update the link hover color */
+a:hover {
+  color: #7b3d3d;
+}
+
+
+
+/* desktop version */
+@media (min-width: 768px) {
+
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+
+  .card {
+    padding: 2em;
+  }
+  
+  /* Update the right section background color */
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 50px;
+    background-color: #fff1d1; /* Lighter shade of cream */
+    border-radius: 15px;
+  }
+  
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+  button {
+    margin-right: 1rem; /* Add margin between buttons */
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: .8em 1.2em; /* updated padding to increase button size */
+    font-size: 1.2em; /* updated font size to make text bigger */
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #800000;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    button {
+      background-color: #800000;
+      padding: 0.9em 1.8em; /* updated padding to increase button size */
+      font-size: 1.2em; /* updated font size to make text bigger */
+      margin-right: 1rem; /* Add margin between buttons */
+    }
+  }
+  
+  
+  
+  button:hover {
+    border-color: #800000;
+  }
+  
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #FDF5E6;
+    }
+  
+    a:hover {
+      color: #800000;
+    }
+  
+    button {
+      background-color: #800000;
+    }
+  }
+  
+  /* Style for Navbar */
+  .Navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .Navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .Nav-link {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .Nav-item h4 {
+    margin-top: 0.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .with-bg .navbar-toggler-icon {
+    background-color: cream;
+  }
+  
+  /* Style for footer */
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem; /* or set the desired height */
+    background-color: #800000;
+    color: #FDF5E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Style for your home page */
+  .container-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    padding: 0 4%;
+  }
+  
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+  }
+  
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 50px;
+    background-color: #800000;
+    border-radius: 15px;
+  }
+  
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Style for your resources  */
+  
+  .container-resources {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    padding: 0 4%;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2in;
+  }
+  
+  .logo {
+    max-width: 200px;
+  }
+  
+  .main-header {
+    margin-bottom: 0;
+  }
+}

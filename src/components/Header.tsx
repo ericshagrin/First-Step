@@ -1,7 +1,8 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import logo_no_text from './logo_no_text.png';
-import './../index.css';
+import './../browser.css';
+import './../mobile.css'
 import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
@@ -35,5 +36,3 @@ const Header = () => {
 };
 
 export default Header;
-
-

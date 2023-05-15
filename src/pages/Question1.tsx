@@ -1,7 +1,9 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
-import './../index.css';
+import './../browser.css';
+import './../mobile.css'
+
 
 const Question1 = () => {
   const navigate = useNavigate();
@@ -15,7 +17,7 @@ const Question1 = () => {
   };
 
   return (
-    <div className="container-resources">
+    <div className="container-resources" >
       <h1>Have you engaged with student counseling in the past? </h1>
       <div className="buttons">
         <Button variant="primary" onClick={handleYesClick} className="btn-primary-custom">
