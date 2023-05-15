@@ -1,4 +1,9 @@
 @media (max-width: 767px) {
+    body {
+      overflow-x: hidden;
+    }
+      
+  
     .card {
       padding: 1.5em;
     }
